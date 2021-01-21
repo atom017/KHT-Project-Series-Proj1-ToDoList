@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newstyle.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+    <div class="whole-container">
+        <div class="header">
+            <h1>To Do List</h1>
+            <div class="tools">
+                <div id="date">Here</div>
+                
+                <i class="fa fa-sync" id = "clear" aria-hidden="true"> <span class="tooltip">clear all</span></i>
+            
+
+            </div>
+                
+        </div>
+
+        <div class="content">
+                <ul id="list" onclick="getClickElement(event)">
+                   
+                </ul>
+        </div>
+
+        <div class="add-item">
+                <input type="text" id ="input" placeholder="Add your to do ">
+                <i class="fa fa-plus-circle" id = "add-btn"></i>
+                
+        </div>
+        <footer>
+            <div class="para">
+                <p> Antonio (Khaing Hsu Thwel) &copy; 2021.  Logo artribution: <a href="https://www.vecteezy.com/">Vecteezy</a></p>
+
+            </div>
+            
+        </footer>
+        
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
