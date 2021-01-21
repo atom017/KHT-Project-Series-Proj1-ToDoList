@@ -25,7 +25,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/atom017/KHT-Project-Series-Proj1-ToDoList/blob/main/src/images/VECTEEZY_WINTER_BACKGROUND_PS1020.jpg)
+![screenshot](https://github.com/atom017/KHT-Project-Series-Proj1-ToDoList/blob/main/src/images/Todolist.png)
 
 
 ### Built With
